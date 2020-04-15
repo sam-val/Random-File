@@ -10,7 +10,7 @@ path = sys.argv[1]
 
 # run the command
 command = ['ls', path]
-completed_pro = sub.run(command, universal_newlines=True, stdout=sub.PIPE)
+completed_pro = sub.run(command, universal_newlines=True, capture_output=True, text=True)
 stdout = completed_pro.stdout
 files = stdout.split('\n')
 
