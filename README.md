@@ -1,5 +1,5 @@
 # Random-File
-Help me to choose a random movie to watch in the folder (Since there are too many!).
+Help me choose a random movie to watch in the folder (Since there are too many!).
 
 Runs on terminal. Adjust the shebang appropriately (to your python interpreter) before running.
 
