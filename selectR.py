@@ -18,4 +18,4 @@ files = stdout.split('\n')
 
 # print the random file
 rs = random.choice(files)
-print(rs)
+print("Random: %s" % rs)
