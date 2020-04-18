@@ -36,6 +36,10 @@ def main():
     # -- another way of making the list is: glob.glob(path + "*") -- #
 
     # print the random thing:
+    if not files:
+        print("path doesn't exist or it's empty")
+        return
+
     rs = random.choice(files)
     if args.verbose:
         print("Randomly selected thing: %s" % rs)
